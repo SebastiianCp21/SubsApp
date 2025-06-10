@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "sebas@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "39e2",
+      "email": "juan1@gmail.com",
+      "password": "2535"
+    }
+  ],
+  "suscripciones": [
+    {
+      "id": "1",
+      "nombre": "Netflix",
+      "costo": "35000",
+      "categoria": "Entretenimiento",
+      "fechaRenovacion": "2025-07-01"
+    },
+    {
+      "id": "2",
+      "nombre": "Spotify",
+      "costo": "18000",
+      "categoria": "Música",
+      "fechaRenovacion": "2025-06-20"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+.login-form {
+  background-color: #1b1b2f;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #0ff;
+}
+
+.login-form input {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.login-form button {
+  padding: 0.7rem;
+  background: linear-gradient(45deg, #0ff, #00f);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.login-form button:hover {
+  background: linear-gradient(45deg, #00f, #0ff);
+}
+.toggle-auth {
+  text-align: center;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.toggle-auth span {
+  color: #0ff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.toggle-auth span:hover {
+  text-decoration: underline;
+}
+input {
+  padding: 0.7rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #12122b;
+  color: #fff;
+  box-shadow: 0 0 5px #0ff2;
+  transition: 0.3s ease;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+input:focus {
+  border: 2px solid #0ff;
+  box-shadow: 0 0 10px #0ff8;
+  background-color: #161636;
+}
+input::placeholder {
+  color: #aaa;
+  font-style: italic;
+  transition: 0.2s ease;
+}
+
+input:focus::placeholder {
+  color: #0ff;
+}
