@@ -1,12 +1,33 @@
-# React + Vite
+Generador y adinistrador de subscripciones
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado como parte de una prueba técnica para aplicar al cargo de Front-End Developer Jr. en la empresa ficticia PixelHub S.A.S.
 
-Currently, two official plugins are available:
+La aplicación permite a los usuarios registrarse, iniciar sesión y gestionar sus suscripciones digitales (como Netflix, Spotify, Disney+, etc.) de manera sencilla e intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React + Vite** para el desarrollo front-end
+- **react-router-dom** para navegación
+- **json-server** como backend simulado
+- **SweetAlert2** para validaciones visuales
+- **CSS tradicional** con estilo neón y diseño modular
+
+---
+
+## ✨ Funcionalidades principales
+
+- Registro de usuario con validación de duplicados
+- Inicio de sesión con autenticación básica
+- CRUD completo de suscripciones:
+  - Crear
+  - Leer (tarjetas)
+  - Editar
+  - Eliminar (con confirmación)
+- Cierre de sesión
+- Rutas protegidas
+- Interfaz responsive y animaciones suaves
+- ---
+
+Creada por Juan Sebastian Cruz Perez
