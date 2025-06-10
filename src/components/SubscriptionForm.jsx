@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Swal from 'sweetalert2'
-import '../styles/form.css'
+import '../styles/Form.css'
 
 function SubscriptionForm({ onAdd }) {
   const [form, setForm] = useState({

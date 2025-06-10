@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { logout } from '../auth'
-import '../styles/navbar.css'
+import '../styles/Navbar.css'
 
 function Navbar() {
   const navigate = useNavigate()

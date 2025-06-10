@@ -4,7 +4,7 @@ import { isAuthenticated } from '../auth'
 import Navbar from '../components/Navbar'
 import SubscriptionForm from '../components/SubscriptionForm'
 import SubscriptionList from '../components/SubscriptionList'
-import '../styles/dashboard.css'
+import '../styles/Dashboard.css'
 
 function Dashboard() {
   const navigate = useNavigate()
