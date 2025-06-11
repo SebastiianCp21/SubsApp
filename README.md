@@ -31,3 +31,4 @@ La aplicación permite a los usuarios registrarse, iniciar sesión y gestionar s
 - ---
 
 Creada por Juan Sebastian Cruz Perez
+link de vercel: subs-app-snowy.vercel.app
